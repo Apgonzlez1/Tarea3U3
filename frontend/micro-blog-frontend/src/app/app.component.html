@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>📝 Micro Blog ESPE</h1>
+
+  <form (ngSubmit)="publishMessage()" #form="ngForm">
+    <textarea
+      [(ngModel)]="message"
+      name="message"
+      placeholder="Escribe tu mensaje aquí..."
+      rows="4"
+      cols="50"
+      maxlength="280"
+      required
+      ngModel>
+    </textarea>
+    <small [style.color]="message.length > 280 ? 'red' : 'gray'">
+      {{ message.length }}/280 caracteres
+    </small>
+    <br>
+    <button type="submit" [disabled]="form.invalid">📤 Publicar</button>
+  </form>
+
+  <div class="post" *ngFor="let post of posts">
+    <p>{{ post.message }}</p>
+    <small>🕓 {{ post.date | date:'short' }}</small>
+  </div>
+</div>
