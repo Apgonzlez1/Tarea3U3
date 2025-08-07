@@ -1,0 +1,8 @@
+# Node modules
+**/node_modules/
+
+# Angular build output
+frontend/micro-blog-frontend/dist/
+
+# Environment files (si tienes secretos)
+**/.env
