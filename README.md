@@ -64,19 +64,19 @@ Editar
 ![App desplegada](src/capturas/app desplegada.png)
 
 ### Backend desplegado en Railway  
-![Backend Railway](src/capturas/backend.png)
+![Backend Railway](capturas/backend.png)
 
 ### Proceso de despliegue del backend en Railway  
 ![Despliegue backend Railway](src/capturas/despliegue del backend.png)
 
 ### Campo de texto con conteo de caracteres  
-![Mensaje con conteo](src/capturas/mensaje.png)
+![Mensaje con conteo](capturas/mensaje.png)
 
 ### Vista de mensajes ya publicados  
-![Mensajes publicados](src/capturas/publicados.png)
+![Mensajes publicados](capturas/publicados.png)
 
 ### Mensaje recibido tras publicar  
-![Mensaje recibido](src/capturas/publi recibida.png)
+![Mensaje recibido](capturas/publi recibida.png)
 
 ---
 
