@@ -61,23 +61,22 @@ Editar
 ## 📷 Capturas de pantalla
 
 ### Aplicación desplegada (frontend en Netlify)  
-![App desplegada](src/capturas/app desplegada.png)
+![App desplegada](Capturas/app desplegada.png)
 
 ### Backend desplegado en Railway  
-![Backend Railway](capturas/backend.png)
+![Backend Railway](Capturas/backend.png)
 
 ### Proceso de despliegue del backend en Railway  
-![Despliegue backend Railway](src/capturas/despliegue del backend.png)
+![Despliegue backend Railway](Capturas/despliegue del backend.png)
 
 ### Campo de texto con conteo de caracteres  
-![Mensaje con conteo](capturas/mensaje.png)
+![Mensaje con conteo](Capturas/mensaje.png)
 
 ### Vista de mensajes ya publicados  
-![Mensajes publicados](capturas/publicados.png)
+![Mensajes publicados](Capturas/publicados.png)
 
 ### Mensaje recibido tras publicar  
-![Mensaje recibido](capturas/publi recibida.png)
-
+![Mensaje recibido](Capturas/publi recibida.png)
 ---
 
 
