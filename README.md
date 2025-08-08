@@ -76,7 +76,7 @@ Editar
 ![Mensajes publicados](Capturas/publicados.png)
 
 ### Mensaje recibido tras publicar  
-![Mensaje recibido](Capturas/publi recibida.png)
+![Mensaje recibido](Capturas/publirecibida.png)
 
 ---
 
