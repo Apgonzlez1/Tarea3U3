@@ -1,59 +1,116 @@
-# MicroBlogFrontend
+# Micro-Blog Institucional - TAREA 3 | Programación Avanzada 202550
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+Este proyecto corresponde a la **Tarea 3** de la asignatura **Programación Avanzada 202550**, donde se implementa un ciclo DevOps completo para una aplicación web simple de Micro-Blogging institucional. La app permite a los usuarios publicar mensajes cortos (hasta 280 caracteres) y ver los mensajes publicados en orden cronológico inverso.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎯 Objetivo del proyecto
 
-```bash
-ng serve
-```
+Diseñar, construir, desplegar y monitorear una aplicación web simple que permita publicar y listar mensajes cortos, aplicando las prácticas del ciclo DevOps: integración continua (CI), despliegue continuo (CD) y monitoreo básico.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧰 Tecnologías utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Frontend:** Angular (TypeScript, HTML, CSS)  
+- **Backend:** Node.js con Express  
+- **Base de datos:** MongoDB  
+- **Autenticación:** OAuth 2.0 con Google  
+- **Despliegue Backend:** Railway  
+- **Despliegue Frontend:** Netlify  
+- **Automatización CI/CD:** GitHub Actions  
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🔥 Funcionalidades implementadas
 
-```bash
-ng generate --help
-```
+- Publicar mensajes con límite de 280 caracteres  
+- Listar todos los mensajes publicados, ordenados del más reciente al más antiguo  
+- Autenticación con Google OAuth 2.0 para usuarios  
+- Conteo dinámico de caracteres en el campo de publicación  
+- Visualización inmediata del mensaje publicado en la lista  
+- Backend RESTful para gestión de mensajes  
+- Frontend responsive y amigable  
 
-## Building
+---
 
-To build the project run:
+## 📁 Estructura del proyecto
 
-```bash
-ng build
-```
+micro-blog-institucional/
+│
+├── backend/ # API REST y lógica del servidor
+├── frontend/ # Aplicación Angular
+├── src/
+│ └── capturas/ # Evidencias gráficas
+│ ├── app desplegada.png
+│ ├── backend.png
+│ ├── despliegue del backend.png
+│ ├── mensaje.png
+│ ├── publicados.png
+│ └── publi recibida.png
+├── .github/ # Configuración GitHub Actions (CI/CD)
+├── README.md
+└── package.json
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+yaml
+Copiar
+Editar
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📷 Capturas de pantalla
 
-```bash
-ng test
-```
+### Aplicación desplegada (frontend en Netlify)  
+![App desplegada](src/capturas/app desplegada.png)
 
-## Running end-to-end tests
+### Backend desplegado en Railway  
+![Backend Railway](src/capturas/backend.png)
 
-For end-to-end (e2e) testing, run:
+### Proceso de despliegue del backend en Railway  
+![Despliegue backend Railway](src/capturas/despliegue del backend.png)
 
-```bash
-ng e2e
-```
+### Campo de texto con conteo de caracteres  
+![Mensaje con conteo](src/capturas/mensaje.png)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Vista de mensajes ya publicados  
+![Mensajes publicados](src/capturas/publicados.png)
 
-## Additional Resources
+### Mensaje recibido tras publicar  
+![Mensaje recibido](src/capturas/publi recibida.png)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+
+http://localhost:4200
+🌐 URLs públicas
+Backend (Railway): https://tu-backend-railway-url.app
+
+Frontend (Netlify): https://tu-frontend-netlify-url.netlify.app
+
+### 📈 Plan de monitoreo básico
+Se monitorean las siguientes métricas:
+
+Tiempo de actividad (Uptime): usando UptimeRobot para chequear la URL cada 5 minutos
+
+Tiempo de respuesta de la API
+
+Tasa de errores 5xx
+
+Evidencia del dashboard de UptimeRobot se encuentra en la carpeta src/capturas.
+
+### 📚 Bibliografía
+(S/f). Documentación oficial de OAuth 2.0 Google. Recuperado de: https://developers.google.com/identity
+
+(S/f). Documentación oficial de Angular. Recuperado de: https://angular.io
+
+(S/f). Documentación oficial de Railway. Recuperado de: https://railway.app
+
+(S/f). Documentación oficial de Netlify. Recuperado de: https://netlify.com
+
+### 🙋‍♀️ Autor: Adriana Pamela González Orellana
+Correo: apgonzalez1@espe.edu.ec
+GitHub: @Apgonzlez1
+
+### 📚 Asignatura: Programación Avanzada 202550
+Unidad 3 - Tarea 3 - Ciclo DevOps
+
