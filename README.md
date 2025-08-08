@@ -61,22 +61,22 @@ Editar
 ## 📷 Capturas de pantalla
 
 ### Aplicación desplegada (frontend en Netlify)  
-![App desplegada](src/capturas/app desplegada.png)
+![App desplegada](Capturas/appdesplegada.png)
 
 ### Backend desplegado en Railway  
-![Backend Railway](src/capturas/backend.png)
+![Backend Railway](Capturas/backend.png)
 
 ### Proceso de despliegue del backend en Railway  
-![Despliegue backend Railway](src/capturas/despliegue del backend.png)
+![Despliegue backend Railway](Capturas/desplieguebackend.png)
 
 ### Campo de texto con conteo de caracteres  
-![Mensaje con conteo](src/capturas/mensaje.png)
+![Mensaje con conteo](Capturas/mensaje.png)
 
 ### Vista de mensajes ya publicados  
-![Mensajes publicados](src/capturas/publicados.png)
+![Mensajes publicados](Capturas/publicados.png)
 
 ### Mensaje recibido tras publicar  
-![Mensaje recibido](src/capturas/publi recibida.png)
+![Mensaje recibido](Capturas/publi recibida.png)
 
 ---
 
@@ -113,4 +113,3 @@ GitHub: @Apgonzlez1
 
 ### 📚 Asignatura: Programación Avanzada 202550
 Unidad 3 - Tarea 3 - Ciclo DevOps
-
